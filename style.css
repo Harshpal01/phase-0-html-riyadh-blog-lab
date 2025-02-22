@@ -1,0 +1,61 @@
+/* Set a gradient background */
+body {
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Style the main heading */
+h1 {
+    font-size: 36px;
+    color: #ffffff;
+}
+
+/* Style the subheading */
+h2 {
+    font-size: 28px;
+    color: #ffcc00;
+}
+
+/* Style smaller subheadings */
+h3 {
+    font-size: 24px;
+    color: #66ffcc;
+}
+
+/* Style paragraphs */
+p {
+    font-size: 18px;
+    color: #eeeeee;
+    line-height: 1.6;
+}
+
+/* Style links */
+a {
+    color: #00ccff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+/* Style images */
+img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    height: auto;
+}
+
+/* Wrapper for content */
+.wrapper {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
